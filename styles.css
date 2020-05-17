@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+p {
+  line-height: 2;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border: dotted #c2f0fc 8px;
+  width: 5%;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.mainpara {
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+.topcontainer {
+  background-color: #c2f0fc;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middlecontainer {
+  margin: 100px 0;
+}
+
+.bottomcontainer {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.bottomcloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.topcloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.skillrow {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.coding {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.football {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 10px;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px 24px;
+  border: 1px solid #11cdd4;
+  border-radius: 8px;
+  background: #1ba6ab;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1ba6ab), to(#11999e));
+  background: -moz-linear-gradient(top, #1ba6ab, #11999e);
+  background: linear-gradient(to bottom, #1ba6ab, #11999e);
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+  border: 1px solid #16ffff;
+  background: #20c7cd;
+  background: -webkit-gradient(linear, left top, left bottom, from(#20c7cd), to(#14b8be));
+  background: -moz-linear-gradient(top, #20c7cd, #14b8be);
+  background: linear-gradient(to bottom, #20c7cd, #14b8be);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button:active {
+  background: #106467;
+  background: -webkit-gradient(linear, left top, left bottom, from(#106467), to(#11999e));
+  background: -moz-linear-gradient(top, #106467, #11999e);
+  background: linear-gradient(to bottom, #106467, #11999e);
+}
